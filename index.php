@@ -197,11 +197,11 @@ echo"<!DOCTYPE html>
                 <h2 class='section-title'>Contate-me</h2>
 
                 <div class='contact__container bd-grid'>
-                    <form action='' class='contact__form' method='POST' action='email.php'>
+                    <form action='email.php' class='contact__form' method='POST'>
                         <input type='text' name='nome' placeholder='Nome' class='contact__input'>
                         <input type='mail' name='email' placeholder='Email' class='contact__input'>
                         <textarea name='mensagem' id='' cols='0' rows='10' class='contact__input'></textarea>
-                        <input type='button' value='Enviar' class='contact__button button'>
+                        <button value='Enviar' class='contact__button button'>Enviar</button>
                     </form>
                 </div>
             </section>
