@@ -3,8 +3,7 @@ if(isset($_POST['email']) && !empty($_POST['email'])){
     $nome = $_POST['nome'];
     $email = $_POST['email'];
     $mensagem = $_POST['mensagem'];
-
-    $to = "maikdev01@gmail.com";
+    $to = "maik.santos@ntectreinamentos.com.br";
     $subject = "Contato - Maik";
     $body = "Nome:".$nome. "\r\n".
             "Email:".$email. "\r\n".
@@ -23,7 +22,4 @@ if(isset($_POST['email']) && !empty($_POST['email'])){
         window.location.replace('index.php');
         </script>");
     }
-}
-
-
 ?>
