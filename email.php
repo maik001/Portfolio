@@ -22,4 +22,5 @@ if(isset($_POST['email']) && !empty($_POST['email'])){
         window.location.replace('index.php');
         </script>");
     }
+}
 ?>
